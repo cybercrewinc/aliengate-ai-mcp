@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="AlienGate icon">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3b3b"/><stop offset="0.55" stop-color="#e01e1e"/><stop offset="1" stop-color="#7c0f14"/>
+    </linearGradient>
+    <radialGradient id="portal" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#2a0d12"/><stop offset="0.7" stop-color="#160a0d"/><stop offset="1" stop-color="#0b0a0d"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="#0b0a0d"/>
+  <g transform="translate(128,132)">
+    <polygon points="0,-92 80,-46 80,46 0,92 -80,46 -80,-46" fill="url(#portal)" stroke="url(#red)" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="0,-66 57,-33 57,33 0,66 -57,33 -57,-33" fill="none" stroke="#ff3b3b" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M0,-50 C33,-50 48,-26 48,2 C48,33 24,57 0,64 C-24,57 -48,33 -48,2 C-48,-26 -33,-50 0,-50 Z" fill="#f5f5f7"/>
+    <path d="M-28,-2 C-24,-17 -9,-17 -7,-2 C-11,7 -24,9 -28,-2 Z" fill="#0b0a0d"/>
+    <path d="M28,-2 C24,-17 9,-17 7,-2 C11,7 24,9 28,-2 Z" fill="#0b0a0d"/>
+    <circle cx="-20" cy="-6" r="2.6" fill="#ff3b3b"/><circle cx="16" cy="-6" r="2.6" fill="#ff3b3b"/>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" role="img" aria-label="AlienGate AI MCP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141017"/>
+      <stop offset="1" stop-color="#0b0a0d"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3b3b"/>
+      <stop offset="0.55" stop-color="#e01e1e"/>
+      <stop offset="1" stop-color="#7c0f14"/>
+    </linearGradient>
+    <radialGradient id="portal" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#2a0d12"/>
+      <stop offset="0.7" stop-color="#160a0d"/>
+      <stop offset="1" stop-color="#0b0a0d"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- panel -->
+  <rect x="1.5" y="1.5" width="817" height="217" rx="26" fill="url(#bg)" stroke="#e01e1e" stroke-opacity="0.55" stroke-width="2"/>
+
+  <!-- ICON: alien inside a gate/portal -->
+  <g transform="translate(112,110)">
+    <!-- outer hex gate -->
+    <g filter="url(#glow)">
+      <polygon points="0,-84 73,-42 73,42 0,84 -73,42 -73,-42"
+               fill="url(#portal)" stroke="url(#red)" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <!-- inner gate ring -->
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30"
+             fill="none" stroke="#ff3b3b" stroke-opacity="0.35" stroke-width="2"/>
+    <!-- gate archway lines -->
+    <line x1="-52" y1="30" x2="52" y2="30" stroke="#ff3b3b" stroke-opacity="0.25" stroke-width="2"/>
+
+    <!-- alien head -->
+    <path d="M0,-46 C30,-46 44,-24 44,2 C44,30 22,52 0,58 C-22,52 -44,30 -44,2 C-44,-24 -30,-46 0,-46 Z"
+          fill="#f5f5f7"/>
+    <!-- eyes -->
+    <path d="M-26,-2 C-22,-16 -8,-16 -6,-2 C-10,6 -22,8 -26,-2 Z" fill="#0b0a0d"/>
+    <path d="M26,-2 C22,-16 8,-16 6,-2 C10,6 22,8 26,-2 Z" fill="#0b0a0d"/>
+    <!-- eye glints -->
+    <circle cx="-19" cy="-6" r="2.4" fill="#ff3b3b"/>
+    <circle cx="15" cy="-6" r="2.4" fill="#ff3b3b"/>
+  </g>
+
+  <!-- WORDMARK -->
+  <g font-family="'Segoe UI',Arial,Helvetica,sans-serif">
+    <text x="230" y="108" font-size="60" font-weight="800" letter-spacing="1">
+      <tspan fill="#f5f5f7">ALIEN</tspan><tspan fill="#ff3b3b">GATE</tspan>
+    </text>
+    <text x="232" y="150" font-size="26" font-weight="600" letter-spacing="7" fill="#c9c7cd">AI &#183; MCP</text>
+    <text x="234" y="182" font-size="15" font-weight="500" letter-spacing="2" fill="#8a8790">OFFENSIVE SECURITY AUTOMATION &#183; by CYBERCREW</text>
+  </g>
+</svg>

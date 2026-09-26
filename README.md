@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/aliengate-logo.svg" alt="AlienGate AI MCP" width="560"/>
+
 # AlienGate AI MCP
 
 ### AI-Driven Offensive Security Automation Platform
