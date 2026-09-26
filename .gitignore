@@ -20,3 +20,7 @@ aliengate_scans.log
 # Local secrets / config
 .env
 *.local.json
+
+# Internal project notes (local only)
+CLAUDE.md
+claude-notes/
