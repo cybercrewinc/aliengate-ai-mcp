@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+aliengate_env/
+env/
+
+# Logs (runtime scan/activity logs stay local)
+*.log
+aliengate.log
+aliengate_scans.log
+
+# Runtime artifacts
+/tmp/aliengate_*
+*.screenshot.png
+.DS_Store
+
+# Local secrets / config
+.env
+*.local.json

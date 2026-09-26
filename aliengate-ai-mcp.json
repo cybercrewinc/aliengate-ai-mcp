@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "aliengate-ai": {
+      "command": "python3",
+      "args": [
+        "/path/to/aliengate_mcp.py",
+        "--server",
+        "http://127.0.0.1:8888"
+      ],
+      "description": "AlienGate AI MCP - AI-driven offensive security automation platform. Set alwaysAllow to [] to require manual approval before autonomous execution.",
+      "timeout": 300,
+      "alwaysAllow": []
+    }
+  }
+}
